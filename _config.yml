@@ -24,9 +24,12 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 
+url: "https://storiesbytom.github.io"
+baseurl: "/blog"
+
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -50,6 +53,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
