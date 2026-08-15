@@ -62,9 +62,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Tom Stelzer"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "dinge, die mich bewegen - festgehalten auf analog film."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -109,6 +109,12 @@ defaults:
       type: pages
     values:
       layout: single
+      author_profile: true # _pages
+  - scope:
+      path: "_einblicke"
+      type: pages
+    values:
+      layout: single
       author_profile: true
 
 category_archive:
@@ -117,3 +123,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  einblicke:
+    output: true
+    permalink: /einblicke/:path/
+  projekte:
+    output: true
+    permalink: /projekte/:path/
+
+search: true

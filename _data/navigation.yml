@@ -1,9 +1,15 @@
 main:
-  - title: "Posts"
+  - title: "notizen"
     url: /posts/
+  - title: "einblicke"
+    url: /einblicke/
+  - title: "projekte"
+    url: /projekte/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "About"
     url: /about/
+  - title: "Suche"
+    url: /search/
