@@ -39,10 +39,10 @@ author:
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/storiesbytom"
+      url: "https://www.instagram.com/stories.by.tom/"
+    - label: "E-Mail"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:stelzer.tom93@gmail.com"
 
 # Collections
 collections:

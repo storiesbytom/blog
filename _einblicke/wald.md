@@ -6,6 +6,7 @@ classes: wide
 # 1. Hero-Header mit Button zum Anker-Link
 header:
   overlay_image: /assets/images/wald-hero.jpg
+  teaser: /assets/images/wald-hero.jpg
   overlay_filter: 0.5
   actions:
     - label: "Zur Galerie springen"
