@@ -1,0 +1,78 @@
+---
+# Die zwei Zeilen Front Matter sind zwingend notwendig, damit Jekyll die Datei kompiliert
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Eigene Projekt-Grid Styles */
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+}
+
+.project-image {
+  width: 35%;
+  max-width: 320px;
+  min-width: 220px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.project-content {
+  padding-left: 1.75rem;
+  flex: 1;
+}
+
+.project-title {
+  margin: 0 0 0.5rem 0 !important;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.project-description {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .project-image {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+  }
+  .project-content {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+}
