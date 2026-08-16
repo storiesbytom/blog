@@ -52,4 +52,10 @@ gallery:
 
 Komorebi (木漏れ日) beschreibt im Japanischen das Sonnenlicht, das durch die Blätter von Bäumen fällt. Diese Serie widmet sich dem Spiel von Licht, Schatten und der Ruhe im Wald.
 
-{% include gallery layout="third" %}
+<div class="custom-gallery">
+  {% for item in page.gallery %}
+    <a href="{{ item.url | relative_url }}" class="custom-gallery-item">
+      <img src="{{ item.image_path | relative_url }}" alt="Galeriebild">
+    </a>
+  {% endfor %}
+</div>
