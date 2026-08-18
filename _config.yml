@@ -5,8 +5,8 @@ description: "dinge, die mich bewegen - festgehalten auf analog film."
 minimal_mistakes_skin: "default"
 search: true
 
-url: "https://storiesbytom.github.io"
-baseurl: "/blog"
+url: "https://storiesbytom.com"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
