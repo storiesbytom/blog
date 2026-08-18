@@ -1,9 +1,9 @@
 ---
 title: "Retrospektive: Warum sich der Blick zurück lohnt"
 date: 2026-02-22
-categories: 
+categories:
   - "foto-der-woche"
-tags: 
+tags:
   - "film"
   - "fotoderwoche"
   - "fotografie"
@@ -11,8 +11,6 @@ tags:
   - "wald"
 coverImage: "R1-07254-0021-scaled.jpeg"
 ---
-
-![](images/R1-07254-0021-1024x686.jpeg)
 
 Nahezu den kompletten Januar durfte ich in **Elternzeit** verbringen. Eine wundervolle Zeit, in der ich auch immer mal wieder die Gelegenheit hatte, mir die Kamera zu schnappen und den Bayerischen Wald in seiner Winterpracht festzuhalten.
 

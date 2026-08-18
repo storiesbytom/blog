@@ -1,6 +1,6 @@
 main:
   - title: "notizen"
-    url: /posts/
+    url: /notizen/
   - title: "einblicke"
     url: /einblicke/
   - title: "projekte"

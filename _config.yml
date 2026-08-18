@@ -14,7 +14,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5
+paginate: 4
 paginate_path: /page:num/
 
 # WICHTIG: Kein include von _pages mehr!
@@ -80,6 +80,12 @@ defaults:
     values:
       layout: single
       author_profile: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      header:
+        teaser: /assets/images/default-teaser.jpg # Pfad zu einem neutralen Standard-Bild
 
 category_archive:
   type: liquid

@@ -1,41 +1,39 @@
 ---
 title: "Wald"
+permalink: /einblicke/wald/
 layout: single
 classes: wide
 
-# 1. Hero-Header mit Button zum Anker-Link
+# Hero-Banner oben
 header:
-  overlay_image: /assets/images/wald-hero.jpg
-  teaser: /assets/images/wald-hero.jpg
+  teaser: /assets/images/wald/wald-hero.jpg
+  overlay_image: /assets/images/wald/wald-hero.jpg
   overlay_filter: 0.5
+  caption: "Foto: Tom Stelzer"
   actions:
-    - label: "Zur Galerie springen"
-      url: "#galerie"
+    - label: "Zur Galerie"
+      url: "/einblicke/wald/#galerie"
 
-# 2. Bilder-Definition für die Galerie
-gallery:
-  - image_path: /assets/images/wald-1.jpg
-    url: /assets/images/wald-1.jpg
-    alt: "Morgennebel"
-    title: "Morgennebel im Wald"
-  - image_path: /assets/images/wald-2.jpg
-    alt: "Sonnenlicht"
-    title: "Lichtspiel im Blätterdach"
-  - image_path: /assets/images/wald-3.jpg
-    alt: "Moospfad"
-    title: "Ruhiger Pfad im Moos"
+excerpt: "Lichtspiele zwischen Baumkronen, Stille und das besondere Mikroklima im dicht bewachsenen Forst."
 ---
 
-## Schönheit der Stille
+## Licht und Schatten im Geäst
 
-Der Wald bietet unzählige Perspektiven und eine Ruhe, die man kaum woanders findet.
-
-<!-- 3. Hier setzen wir die ID für den Sprungmarken-Link -->
-
-{: #galerie}
+Die Waldfotografie fasziniert mich durch ihre ständige Veränderung. Zwischen dichtem Geäst bricht das Sonnenlicht oft spürbar in feinen Strahlen durch den Dunst – Momente der Stille, die auf analogem Film eine ganz eigene Tiefe entfalten.
 
 ### Galerie
 
-<!-- 4. Hier wird die oben definierte Galerie gerendert -->
+{: #galerie}
 
-{% include gallery layout="half" %}
+<div class="custom-gallery">
+  {% assign wald_files = site.static_files | where_exp: "file", "file.path contains '/assets/images/wald/'" %}
+  {% for file in wald_files %}
+    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' %}
+      {% unless file.path contains 'hero' %}
+        <a href="{{ file.path | relative_url }}" class="custom-gallery-item">
+          <img src="{{ file.path | relative_url }}" alt="Waldfotografie" loading="lazy">
+        </a>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</div>

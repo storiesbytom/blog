@@ -1,10 +1,10 @@
 ---
 title: "Saisonaler Purismus: Ein Winter in Schwarz und Weiß"
 date: 2026-01-16
-categories: 
+categories:
   - "foto-der-woche"
   - "photography"
-tags: 
+tags:
   - "blackwhite"
   - "film"
   - "fotoderwoche"
@@ -14,8 +14,6 @@ tags:
   - "wald"
 coverImage: "DSC00681-analog-bw-Elmarit-28-film-HC110-Homelab-ISO-400-Leica-M6-roll62-Rollei-Retro-400S-Wald-scaled.jpg"
 ---
-
-![](images/DSC00681-analog-bw-Elmarit-28-film-HC110-Homelab-ISO-400-Leica-M6-roll62-Rollei-Retro-400S-Wald-1024x675.jpg)
 
 Die letzten Monate waren meine analogen Aufnahmen vor allem von zwei Farben geprägt: **Schwarz und Weiß**. Ich habe seit November letzten Jahres sechs Schwarz-Weiß-Filme belichtet. Vermutlich bin ich, wenn auch nicht bewusst, ein saisonaler Fotograf.
 

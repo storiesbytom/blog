@@ -18,7 +18,7 @@ Fotografie bedeutet für mich, Momente in ihrer unverfälschten Form festzuhalte
 
   <!-- Kategorie 1: Landschaft -->
   <a href="{{ '/einblicke/landschaft/' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/landschaft-hero.jpg' | relative_url }}" alt="Landschaft" class="project-image">
+    <img src="{{ '/assets/images/landschaft/landschaft-hero.jpg' | relative_url }}" alt="Landschaft" class="project-image">
     <div class="project-content">
       <h2 class="project-title">Landschaft</h2>
       <p class="project-description">Weite Horizontlinien, Stille und das Zusammenspiel der Elemente in unberührter Natur.</p>
