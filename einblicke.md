@@ -6,13 +6,13 @@ classes: wide
 author_profile: false
 
 header:
-  overlay_image: /blog/assets/images/einblicke-hero.jpg
+  overlay_image: /assets/images/einblicke-hero.jpg
   overlay_filter: 0.5
 
-excerpt: "Thematische Portfolios, visuelle Notizen und Einblicke in verschiedene Facetten der Fotografie."
+excerpt: "Visuelle Motive und fortlaufende Sammlungen."
 ---
 
-Fotografie bedeutet für mich, Momente in ihrer unverfälschten Form festzuhalten. Hier findest du eine Zusammenstellung verschiedener Galerie-Kategorien:
+Hier sammle ich Eindrücke nach Themen sortiert. Es sind lose Beobachtungen, Lichtstimmungen und Momente aus dem Alltag ohne festen Anfang oder Ende.
 
 <div class="project-grid">
 
@@ -36,7 +36,7 @@ Fotografie bedeutet für mich, Momente in ihrer unverfälschten Form festzuhalte
 
   <!-- Kategorie 3: Wald -->
   <a href="{{ '/einblicke/wald/' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/wald-hero.jpg' | relative_url }}" alt="Wald" class="project-image">
+    <img src="{{ '/assets/images/wald/wald-hero.jpg' | relative_url }}" alt="Wald" class="project-image">
     <div class="project-content">
       <h2 class="project-title">Wald</h2>
       <p class="project-description">Lichtspiele, verborgene Pfade und die magische Atmosphäre heimischer Wälder.</p>

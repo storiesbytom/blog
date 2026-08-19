@@ -1,7 +1,7 @@
 # Site settings
 title: "Stories by Tom"
 email: ""
-description: "dinge, die mich bewegen - festgehalten auf analog film."
+description: "Dinge, die mich bewegen - festgehalten in Bildern und Notizen."
 minimal_mistakes_skin: "default"
 search: true
 
@@ -35,7 +35,7 @@ plugins:
 author:
   name: "Tom Stelzer"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "dinge, die mich bewegen - festgehalten auf analog film."
+  bio: "Dinge, die mich bewegen - festgehalten in Bildern und Notizen."
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
